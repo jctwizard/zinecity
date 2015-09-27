@@ -1,0 +1,14 @@
+.body
+{
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  font-size: 0.8em;
+}
+
+#scene
+{
+  margin: auto;
+  width: 40%;
+  border: 1em dashed white;
+}
