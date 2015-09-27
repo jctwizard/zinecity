@@ -1,14 +1,39 @@
-.body
+html, body
 {
-  background-color: black;
-  color: white;
-  font-family: monospace;
-  font-size: 0.8em;
+  height: 100%;
+  background-image: url("stripe.png");
+  background-repeat: repeat;
+  background-size: 1%;
 }
 
-#scene
+#table
 {
-  margin: auto;
-  width: 40%;
-  border: 1em dashed white;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+#table-cell
+{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#content
+{
+  margin: 0 auto;
+  padding: 0 1%;
+  width: 20%;
+  background-color: black;
+  color: white;
+  font-family: 'Andale Mono', AndaleMono, monospace;
+  font-size: 1.0vw;
+  letter-spacing: 0.25em;
+  text-align: center;
+}
+
+#container
+{
+  border: 0.1em dashed white;
+  z-index: -1;
 }
